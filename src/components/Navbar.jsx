@@ -2,6 +2,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import logo from "../assets/logo.png";
 import { navItems } from "../constants";
+import Button from "./Button";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -28,18 +29,12 @@ const Navbar = () => {
           </ul>
 
           <div className="hidden lg:flex justify-center items-center space-x-8">
-            <a
-              href="#"
-              className="px-2 py-1 border border-slate-500/55 rounded-md"
-            >
-              Sign In
-            </a>
-            <a
-              href="#"
-              className="bg-gradient-to-r from-orange-500 to-orange-800 py-1 px-2 rounded-md"
-            >
-              Create an account
-            </a>
+            <Button label="Sign In" borderColor="to-slate-500/10" />
+            <Button
+              label="Create an account"
+              borderColor="border-none"
+              backgroundColor="bg-gradient-to-r from-orange-500 to-orange-800"
+            />
           </div>
           <div className="lg:hidden md:flex justify-end py-1 px-2">
             <button onClick={toggleMobileMenuOpen}>
@@ -59,18 +54,12 @@ const Navbar = () => {
               ))}
             </ul>
             <div className="flex space-x-8 mt-10">
-              <a
-                href="#"
-                className="px-2 py-1 border border-slate-500/55 rounded-md"
-              >
-                Sign In
-              </a>
-              <a
-                href="#"
-                className="bg-gradient-to-r from-orange-500 to-orange-800 py-1 px-2 rounded-md"
-              >
-                Create an account
-              </a>
+              <Button label="Sign In" borderColor="to-slate-500/10" />
+              <Button
+                label="Create an account"
+                borderColor="border-none"
+                backgroundColor="bg-gradient-to-r from-orange-500 to-orange-800"
+              />
             </div>
           </div>
         )}
