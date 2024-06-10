@@ -4,7 +4,7 @@ import video2 from "../assets/video2.mp4";
 
 const Hero = () => {
   return (
-    <section id="features" className="flex flex-col items-center mt-6 lg:mt-20">
+    <section className="flex flex-col items-center mt-6 lg:mt-20">
       <h1 className="text-4xl max-w-4xl lg:max-w-3xl sm:text-6xl lg:text-7xl text-center tracking-wide">
         VirtualR build tools{" "}
         <span className="gradient-text">for developers</span>
