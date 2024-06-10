@@ -5,6 +5,7 @@ import {
   Workflow,
   Pricing,
   Testimonials,
+  Footer,
 } from "./sections";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <Workflow />
         <Pricing />
         <Testimonials />
+        <Footer />
       </div>
     </main>
   );
