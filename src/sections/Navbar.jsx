@@ -29,7 +29,7 @@ const Navbar = () => {
           </ul>
 
           <div className="hidden lg:flex justify-center items-center space-x-8">
-            <Button label="Sign In" borderColor="to-slate-500/10" />
+            <Button label="Sign In" />
             <Button
               label="Create an account"
               borderColor="border-none"
@@ -54,7 +54,7 @@ const Navbar = () => {
               ))}
             </ul>
             <div className="flex space-x-8 mt-10">
-              <Button label="Sign In" borderColor="to-slate-500/10" />
+              <Button label="Sign In" />
               <Button
                 label="Create an account"
                 borderColor="border-none"

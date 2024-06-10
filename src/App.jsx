@@ -1,4 +1,4 @@
-import { Navbar, Hero, Feature, Workflow } from "./sections";
+import { Navbar, Hero, Feature, Workflow, Pricing } from "./sections";
 
 const App = () => {
   return (
@@ -8,6 +8,7 @@ const App = () => {
         <Hero />
         <Feature />
         <Workflow />
+        <Pricing />
       </div>
     </main>
   );
