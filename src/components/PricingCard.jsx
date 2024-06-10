@@ -31,7 +31,7 @@ const PricingCard = ({ title, price, features }) => {
           <Button
             label="Subscribe"
             borderColor="border-orange-900"
-            classProps="px-8 transition duration-200 hover:bg-orange-900"
+            classProps="px-8 transition duration-200 hover:border-none hover:bg-gradient-to-r hover:from-orange-500 hover:from-orange-800"
           />
         </div>
       </div>
