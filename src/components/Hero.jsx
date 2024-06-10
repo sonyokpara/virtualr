@@ -4,12 +4,10 @@ import video2 from "../assets/video2.mp4";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col items-center mt-6 lg:mt-20">
+    <section id="features" className="flex flex-col items-center mt-6 lg:mt-20">
       <h1 className="text-4xl max-w-4xl lg:max-w-3xl sm:text-6xl lg:text-7xl text-center tracking-wide">
         VirtualR build tools{" "}
-        <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
-          for developers
-        </span>
+        <span className="gradient-text">for developers</span>
       </h1>
       <p className="text-lg leading-normal text-center text-neutral-500 mt-10 max-w-3xl">
         Empower your creativity and bring your VR app ideas to life with our
