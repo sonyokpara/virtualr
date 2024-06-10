@@ -1,4 +1,4 @@
-import { Navbar, Hero, Feature, Workflow } from "./components";
+import { Navbar, Hero, Feature, Workflow } from "./sections";
 
 const App = () => {
   return (
