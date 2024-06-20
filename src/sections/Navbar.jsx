@@ -16,8 +16,10 @@ const Navbar = () => {
       <nav className="px-4 mx-auto relative text-ms container">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
-            <img src={logo} alt="logo" className="w-10 h-10 mr-2" />
-            <span className="tracking-tight text-xl">VirtualR</span>
+            <a href="/" className="flex flex-start items-center">
+              <img src={logo} alt="logo" className="w-10 h-10 mr-2" />
+              <span className="tracking-tight text-xl">VirtualR</span>
+            </a>
           </div>
 
           <ul className="hidden lg:flex space-x-12 ml-12">
@@ -47,7 +49,11 @@ const Navbar = () => {
             <ul className="space-y-8">
               {navItems.map((item, index) => (
                 <li key={index}>
-                  <a href={item.href} className="hover:text-gray-400">
+                  <a
+                    href={item.href}
+                    className="hover:text-gray-400"
+                    onClick={toggleMobileMenuOpen}
+                  >
                     {item.label}
                   </a>
                 </li>
